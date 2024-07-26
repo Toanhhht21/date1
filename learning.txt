@@ -1,0 +1,55 @@
+Tạo ứng dụng quản lý todo list bằng mô hình MVC
+- data phải save database
+- tao todo: 
+    - id
+    - title
+    - description
+    - status (todo, learning, done)
+- View list todo UI
+- View detail todo UI
+- Mark todo from todo => learning => done
+- Delete todo
+
+
+Learning Database:
+ - SQL
+    Mysql, Postgres
+    primary key, foriegn key
+    table, column, record
+    sql query statements: where, delete, select, from, update,...
+    sub-query
+    index (B-tree, Hash, Full text search - vector, ...)
+    Stored Procedures, trigger
+    transaction ( commit, rollback, ....)
+    database design
+    join (inner-join, outer-join, full-join,...)
+    analysis/calculate perfomance query - time, strategy
+
+DBA job - optimize query, design db, 
+
+ - NoSQL
+    - Document-DB: MongoDB
+    - Inmemory Key-value DB: Redis, Memcached
+
+Install Mysql, Postgres bằng docker 
+    Workbench, DBBeave,... (GUI)
+
+
+DevOps:
+    - Docker (container, image, )
+    - Basic command: docker ps, docker pull, docker exec, docker build, docker images...
+    - port, volumne, ...
+    - install mysql, postgres, mongo, redis
+    - understand dockerfile
+
+Linux
+  - distribution: Ubuntu, CentOS
+  - linux commands
+
+
+
+Learning Git:
+ - Repository: Github, gitlab
+ - Branch
+ - Command: git pull, get fetch, git merge, git rebase,...
+- Git flow: develop, hotfix, 
